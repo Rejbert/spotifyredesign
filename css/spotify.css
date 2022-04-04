@@ -17,9 +17,12 @@ header {
     overflow:hidden;
    
 }
+
+/*CONTAINER */
 .container {
 	width:100%;
 }
+/*COLUMNS NAV*/
 .columns {
     width: 250px;
 	background-color:#000;
@@ -30,6 +33,7 @@ header {
 	display:block;
 	
 }
+/*COLUMNS NAV-2*/
 .columns_col {
     width: 250px;
 	background-color:#262626;
