@@ -7,20 +7,27 @@ header {
 }
 
 /*NAVIGATION*/
-.nav_icon {
+nav {
     height:50px;
     width:100%;
     background-color:#4FD9EC;
     top:0;
-	left:0;
     position:fixed;
     overflow:hidden;
    
+}
+.nav_icon {
+	text-align:center;
+}
+.img-nav img{
+	width:30px;
+	height:30px;
 }
 
 /*CONTAINER */
 .container {
 	width:100%;
+	height:100%;
 }
 /*COLUMNS NAV*/
 .columns {
