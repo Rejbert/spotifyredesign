@@ -13,9 +13,7 @@ nav {
 	display:flex;
 	justify-content:center;
 }
-.nav_icon {
 
-}
 /*CONTAINER*/
 .container {
 	max-width:100%;
@@ -49,19 +47,38 @@ main {
 /*img nav*/
 .nav_icon {
 	display:flex;
-	align-items:center;
 	list-style-type:none;
+	align-items: center;
+	margin:0 -10px;
+
 }
-.small {
+
+.change1 {
+	margin:0 10px;
+	padding-right:120px;
+
+}
+
+
+.change-change {
+	margin-left:42em;
+}
+	
+.nav_icon .big {
 	width:30px;
 	height:30px;
 }
-.big {
+
+.nav_icon .small {
 	width:30px;
-	height:30px;
+	height:30px;	
 }
+
 .ide {
 	width:45px;
 	height:45px;
+	
+
+	
 }
 
