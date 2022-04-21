@@ -75,6 +75,13 @@ main {
 
 .change-change {
 	margin-left:35em;
+    color:#ffff;
+}
+
+.change-change .ide {
+	display:flex;
+	align-items: center;
+
 }
 	
 .nav_icon .big {
@@ -90,8 +97,6 @@ main {
 .ide {
 	width:45px;
 	height:45px;
-	
-
 	
 }
 
