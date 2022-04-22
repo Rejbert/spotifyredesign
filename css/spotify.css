@@ -23,7 +23,11 @@ nav {
 /*COLUMNS*/
 .columns {
     width:250px;
-	background-color:#000;
+	background-color:#FFF;
+	background-image: url("../images/spoty-redisign.png");
+	background-size:250%;
+	background-repeat: no-repeat;
+	background-position:center;
 	height:100% !important;
     position:fixed;
 	left:0;
@@ -33,7 +37,11 @@ nav {
 }
 .columns_col {
     width:250px;
-	background-color:#262626;
+	background-color:#FFF;
+	background-image: url("../images/spoti_back_redisign.png");
+	background-size:250%;
+	background-repeat: no-repeat;
+	background-position:center;
 	height:100% !important;
 	position:fixed;
 	right:0;
