@@ -73,10 +73,18 @@ ul .home {
 	background-size:contain;
 	padding: 5px 10px 5px 25px;
 	
-
 }
 ul .search {
 	background:url('../images/loupe.png') no-repeat left;
+	/*background-size:180px 80px;*/
+	background-size:contain;
+	padding: 5px 10px 5px 25px;
+	
+
+}
+
+ul .library {
+	background:url('../images/library.png') no-repeat left;
 	/*background-size:180px 80px;*/
 	background-size:contain;
 	padding: 5px 10px 5px 25px;
