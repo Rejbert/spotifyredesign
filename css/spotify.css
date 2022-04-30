@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;600&display=swap');
+
+
+
 html, body {
 	margin:0;
 	padding:0;
@@ -5,7 +9,87 @@ html, body {
 body {
     background-color:#FFFF;
 }
-/*NAVIGATION*/
+
+.container {
+	width:100%;
+	height:2000px;
+	display:flex;
+	
+}
+/* NAVIGATION */
+	.nav_icon {
+		background-color:#4FD9EC;
+		width:100%;
+    	height:70px;
+		top:0;
+		left:0;
+		position:fixed;
+		overflow:hidden;
+		
+		
+	/*overflow:hidden;*/
+	}
+	
+	.nav_icon  .small .big {
+		display:inline-block;
+		padding:0 20px;
+	
+	}
+
+	.small {
+		width:30px;
+		height:30px;
+		
+	}
+	.big {
+		width:30px;
+		height:30px;
+	}
+	.ide {
+		width:40px;
+		height:40px;
+		margin-left:auto;
+	}
+	
+	/*COLUMNS*/
+	/*.columns {
+    	width:250px;
+		background-color:#FFE604;
+		background-image: url("../images/spoti_back_redisign.png");
+		background-size:250%;
+		background-repeat: no-repeat;
+		background-position:center;
+		height:100% !important;
+    	position:fixed;
+		left:0;
+		top:0;	
+		display:block;
+	
+	}
+	.columns_col {
+    width:250px;
+	background-color:#FFE604;
+	background-image: url("../images/spoty-redisign.png");
+	background-size:250%;
+	background-repeat: no-repeat;
+	background-position:center;
+	height:100% !important;
+	position:fixed;
+	right:0;
+	top:0;	
+	display:block;
+	}*/
+
+	
+	
+
+
+ 
+
+
+
+
+/*NAVIGATION
 nav {
 	width:100%;
     height:50px;
@@ -18,20 +102,20 @@ nav {
 	justify-content:center;
 }
 
-/*CONTAINER*/
+CONTAINER
 .container {
 	width:100%;
 	height:1000px;
 	
 }
 
-/*MAIN*/
+MAIN
 main {
 	width:780px;
 	height:100%;
 }
 
-/*COLUMNS*/
+COLUMNS
 .columns {
     width:250px;
 	background-color:#FFE604;
@@ -43,7 +127,7 @@ main {
     position:fixed;
 	left:0;
 	top:0;	
-	/*display:block;*/
+	display:block;
 	
 }
 .columns_col {
@@ -69,14 +153,14 @@ ul {
 }
 ul .home {
 	background:url('../images/home.png') no-repeat left;
-	/*background-size:180px 80px;*/
+	background-size:180px 80px;
 	background-size:contain;
 	padding: 5px 10px 5px 25px;
 	
 }
 ul .search {
 	background:url('../images/loupe.png') no-repeat left;
-	/*background-size:180px 80px;*/
+	background-size:180px 80px;
 	background-size:contain;
 	padding: 5px 10px 5px 25px;
 	
@@ -85,7 +169,7 @@ ul .search {
 
 ul .library {
 	background:url('../images/library.png') no-repeat left;
-	/*background-size:180px 80px;*/
+	background-size:180px 80px;
 	background-size:contain;
 	padding: 5px 10px 5px 25px;
 	
@@ -98,9 +182,9 @@ ul .library {
 /*.loupe{
 	width:90px;
 	height:70px;		
-}*/
+}
 
-/*img nav*/
+
 .nav_icon {
 	display:flex;
 	list-style-type:none;
@@ -126,18 +210,19 @@ ul .library {
 .change .small {
 	padding-right:-5em;
 
-}*/
+
 
 .change-change {
 	margin-left:35em;
     color:#ffff;
+	font-family: 'Arimo', sans-serif;
 }
 
 /*.change-change .ide {
 	display:flex;
 	align-items: center;
 
-}*/
+
 	
 .nav_icon .big {
 	width:30px;
@@ -153,5 +238,5 @@ ul .library {
 	width:45px;
 	height:45px;
 	
-}
+}$/
 
