@@ -24,9 +24,7 @@ body {
 		top:0;
 		left:0;
 		position:fixed;
-		overflow:hidden;
-		
-		
+		overflow:hidden;	
 	/*overflow:hidden;*/
 	}
 	
@@ -93,6 +91,15 @@ body {
 	right:0;
 	top:0;	
 	display:block;
+	}
+	.logo .spoti {
+		margin-bottom:20px;
+
+	}
+	
+    .spoti {
+		width:100%;
+		
 	}
 
 
