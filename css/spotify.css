@@ -92,14 +92,28 @@ body {
 	top:0;	
 	display:block;
 	}
-	.logo .spoti {
-		margin-bottom:20px;
 
+	.logo .spoti {
+		width:170px;
+		margin-left:20px;
 	}
-	
+
     .spoti {
 		width:100%;
+	}
+
+	.icon {
+		list-style-type: none;
+	
 		
+	}
+
+	img {
+		width:100%;
+	}
+
+	.icon li {
+		width:100px;
 	}
 
 
