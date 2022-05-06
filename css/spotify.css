@@ -104,17 +104,62 @@ body {
 
 	.icon {
 		list-style-type: none;
-	
+		display:flex;
+		flex-direction:column;
+		flex:1 1 auto;
+		padding-left:50px;
+		/*align-items:flex-start;*/
+		
 		
 	}
+	
+	.icon .home {
+		/*flex:1;*/
+		padding:0 0.7em;
+
+		
+	}
+
+	.icon .search {
+		flex:1;
+		padding:10px;
+	}
+
+	.icon .library {
+		flex:1;
+		padding:10px;
+	}
+
+	.icon .playlist {
+		flex:1;
+		padding:10px;
+	}
+
+	.icon .song {
+		flex:1;
+		padding:10px;
+	}
+	
+	
 
 	img {
 		width:100%;
 	}
 
-	.icon li {
-		width:100px;
+	.image-icon img{
+		width:20px;	
+		padding-bottom:5px;
+		font-family:'Arimo', sans-serif;
+		font-weight:700;
+		color:#FFFF;
+		font-size:14px;
+	
 	}
+	/*.icon span {
+		display:inline-flex;
+		align-items:center;
+	}*/
+	
 
 
 
