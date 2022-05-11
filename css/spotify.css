@@ -66,7 +66,6 @@ body {
 
 	}
 	
-	
 	/*COLUMNS*/
 	.columns {
     	width:250px;
@@ -81,19 +80,6 @@ body {
 		top:0;	
 		display:block;
 	
-	}
-	.columns_col {
-    width:250px;
-	background-color:#FFE604;
-	background-image: url("../images/spoty-redisign.png");
-	background-size:250%;
-	background-repeat: no-repeat;
-	background-position:center;
-	height:100% !important;
-	position:fixed;
-	right:0;
-	top:0;	
-	display:block;
 	}
 
 	.logo .spoti {
@@ -155,6 +141,36 @@ body {
 		font-size:12px;
 		margin-top:15px;
 
+	}
+
+	.columns_col {
+		width:250px;
+		background-color:#FFE604;
+		background-image: url("../images/spoty-redisign.png");
+		background-size:250%;
+		background-repeat: no-repeat;
+		background-position:center;
+		height:100% !important;
+		position:fixed;
+		right:0;
+		top:0;	
+		display:block;
+	}
+
+	.one {
+		width:50px;
+		height:50px;
+		
+	}
+
+	.two {
+		width:50px;
+		height:50px;
+	}
+
+	.three {
+		width:50px;
+		height:50px;
 	}
 	
 	/*.image-icon  .home {
