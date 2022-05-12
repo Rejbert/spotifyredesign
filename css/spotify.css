@@ -143,6 +143,26 @@ body {
 
 	}
 
+	img {
+		width:100%;
+	}
+
+	.image-icon img{
+		width:20px;	
+		padding-bottom:5px;
+	
+	}
+
+	.home, .search, .library, .playlist, .song {
+		font-family:'Arimo', sans-serif;
+		font-weight:700;
+		color:#FFFF;
+		font-size:12px;
+		margin-left:10px;
+		margin-top:6px;
+	
+	}
+
 	.columns_col {
 		width:250px;
 		background-color:#FFE604;
@@ -276,7 +296,7 @@ body {
 	
 	
 
-	img {
+	/*img {
 		width:100%;
 	}
 
@@ -294,7 +314,7 @@ body {
 		margin-left:10px;
 		margin-top:6px;
 	
-	}
+	}*/
 	/*.icon span {
 		display:inline-flex;
 		align-items:center;
