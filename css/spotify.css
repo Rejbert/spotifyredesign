@@ -62,9 +62,29 @@ body {
 	.ide {
 		width:40px;
 		height:40px;
+		float:left;
+		
+	}
+
+	.profil {
 		float:right;
+		margin-top:15px;
+		color:#FFE604;
+		font-family:'Arimo', sans-serif;
+		font-size:12px;
 
 	}
+	.id {
+		display:flex;	
+	}
+
+	/*.profil {
+		display:inline-block;
+		align-self:flex-end;
+		
+
+			
+	}*/
 	
 	/*COLUMNS*/
 	.columns {
