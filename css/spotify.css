@@ -329,28 +329,72 @@ img {
 
 	}
 
-	.listen1 {
+	.listen1 .listen2{
 		display:flex;
-		justify-content: center;
-	}
-
-	.kenny {
-		width:800px;
-		height:700px;
+		/*justify-content:center;*/	
 		
 	}
 
+	.kenny_im {
+		width:33%;
+	}
+
+	.jazz_im {
+		width:33%;
+	}
+	.peace_im {
+		width:33%;
+	}
+
+	.kenny {
+		width:500px;
+		height:500px;		
+	
+	}
+
 	.jazz {
-		width:800px;
-		height:700px;
+		width:500px;
+		height:500px;
 		
 	}
 
 	.peace {
-		width:800px;
-		height:700px;
+		width:500px;
+		height:500px;
+			
+	}
+
+	.sampha_im {
+		width:33%;
+	}
+
+	.breathe_im {
+		width:33%;
+	}
+	.adele_im {
+		width:33%;
+	}
+
+
+	.sampha {
+		width:500px;
+		height:500px;		
+	
+	}
+
+	.breathe {
+		width:500px;
+		height:500px;
 		
 	}
+
+	.adele {
+		width:400px;
+		height:400px;
+		
+		
+	}
+	
 	
 	
 	
