@@ -301,7 +301,7 @@ img {
 	}
 	/*CONTENT*/
 	.content {
-		width:1600px;
+		width:1900px;
 		height:100%;
 		text-align:center;
 		background-color: forestgreen;
@@ -329,26 +329,39 @@ img {
 
 	}
 
-	.listen1 .listen2{
-		display:flex;
-		/*justify-content:center;*/	
+	.listen1 {
+		/*display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;*/
+		display:grid;
+		grid-template-columns:auto auto auto;
+		
+	}
+	/*.listen2 {
+		/*display:flex;*/
+		/*justify-content:center; /* align horizontal */
+		/*align-items:center; 
+	}*/
+
+	.im {
+		padding:5px;
+		box-sizing:border-box;
 		
 	}
 
-	.kenny_im {
-		width:33%;
+	.im img {
+		width:100%;
 	}
 
-	.jazz_im {
-		width:33%;
-	}
-	.peace_im {
-		width:33%;
+	footer {
+		height:150px;
+		background-color:#000;
 	}
 
-	.kenny {
+	/*.kenny {
 		width:500px;
-		height:500px;		
+		height:500px;
+		
 	
 	}
 
@@ -356,23 +369,29 @@ img {
 		width:500px;
 		height:500px;
 		
+		
 	}
 
 	.peace {
 		width:500px;
 		height:500px;
+		
+		
 			
-	}
+	}*/
 
-	.sampha_im {
+	/*.sampha_im {
 		width:33%;
+		
 	}
 
 	.breathe_im {
 		width:33%;
+	
 	}
 	.adele_im {
 		width:33%;
+		float:left;
 	}
 
 
@@ -393,7 +412,7 @@ img {
 		height:400px;
 		
 		
-	}
+	}*/
 	
 	
 	
