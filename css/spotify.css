@@ -360,21 +360,37 @@ img {
 	.im img{
 		width:500px;	
 	}
-
+	/* SUBTITLES */
 	h2 {
 		font-family:'Arimo', sans-serif;
 		color:#FFFF;
-		font-size:50px;
+		font-size:40px;
 		padding-top:5px;
+		text-align:left;
+		margin-left:10px;
 	}
 	.rb {
 		width:1770px;
-		height:70px;
+		height:60px;
 		border-radius:25px;
 		background-color:#FF3EA5FF;
-		margin-left:65px;
+		margin:0 auto;
 	}
 
+	/* MUSIC LIST */
+	.music-list {
+		display:grid;
+		grid-template-columns:auto auto auto;
+	}
+
+	.line1 {
+		margin-top:20px;
+	}
+
+	.line1 img {
+		width:150px;	
+		margin-right:10px;
+	}
 
 	/*FOOTER*/
 	footer {
