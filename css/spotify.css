@@ -389,7 +389,10 @@ img {
 
 	.line1 img {
 		width:150px;	
-		margin-right:10px;
+		margin-left:40px;
+		padding-right:8px;
+	
+		
 	}
 
 	/*FOOTER*/
