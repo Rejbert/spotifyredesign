@@ -100,7 +100,7 @@ img {
 		background-size:250%;
 		background-repeat: no-repeat;
 		background-position:center;
-		height:100% !important;
+		height:94% !important;
     	position:fixed;
 		left:0;
 		top:0;	
@@ -196,7 +196,7 @@ img {
 		background-size:250%;
 		background-repeat: no-repeat;
 		background-position:center;
-		height:100% !important;
+		height:94% !important;
 		position:fixed;
 		right:0;
 		top:0;	
@@ -377,7 +377,7 @@ img {
 		margin:0 auto;
 	}
 
-	/* MUSIC LIST */
+	/* MUSIC LIST R&B*/
 	.music-list {
 		display:grid;
 		grid-template-columns:auto auto auto;
@@ -392,12 +392,63 @@ img {
 		margin-left:40px;
 		padding-right:8px;
 	
-		
 	}
+
+	/* MUSIC LIST POP*/
+	.music-list {
+		display:grid;
+		grid-template-columns:auto auto auto;
+	}
+
+	.line2 {
+		margin-top:20px;
+	}
+
+	.line2 img {
+		width:150px;	
+		margin-left:40px;
+		padding-right:8px;
+	
+	}
+
+	/* MUSIC LIST SOUL*/
+	.music-list {
+		display:grid;
+		grid-template-columns:auto auto auto;
+	}
+
+	.line3 {
+		margin-top:20px;
+	}
+
+	.line3 img {
+		width:150px;	
+		margin-left:40px;
+		padding-right:8px;
+	
+	}
+
+	/* MUSIC LIST HIP-HOP*/
+	.music-list {
+		display:grid;
+		grid-template-columns:auto auto auto;
+	}
+
+	.line4 {
+		margin-top:20px;
+	}
+
+	.line4 img {
+		width:150px;	
+		margin-left:40px;
+		padding-right:8px;
+	
+	}
+
 
 	/*FOOTER*/
 	footer {
-		height:150px;
+		height:80px;
 		background-color:#000;
 	}
 
