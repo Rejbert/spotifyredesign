@@ -100,7 +100,7 @@ img {
 		background-size:250%;
 		background-repeat: no-repeat;
 		background-position:center;
-		height:94% !important;
+		height:100% !important;
     	position:fixed;
 		left:0;
 		top:0;	
@@ -196,7 +196,7 @@ img {
 		background-size:250%;
 		background-repeat: no-repeat;
 		background-position:center;
-		height:94% !important;
+		height:100% !important;
 		position:fixed;
 		right:0;
 		top:0;	
@@ -328,6 +328,7 @@ img {
 		font-family:'Arimo', sans-serif;
 		font-size:25px;
 		font-weight:700 bold;
+		
 	}
 
 	.listen1 {
@@ -449,7 +450,11 @@ img {
 	/*FOOTER*/
 	footer {
 		height:80px;
-		background-color:#000;
+		background-color:#4FD9EC;
+		position: fixed;
+		left:0;
+		bottom: 0;
+		width:100%;
 	}
 
 	/*.kenny {
