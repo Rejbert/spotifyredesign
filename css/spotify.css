@@ -298,6 +298,11 @@ img {
 		height:100%;	
 		background-color:chocolate;
 		margin:0 auto;
+		bottom: 0;
+		position: fixed;
+		top:0;
+		
+		
 	}
 	.goodmorning {
 		color:#FFFF;
@@ -310,6 +315,8 @@ img {
 		text-align:center;
 		background-color: forestgreen;
 		margin:0 auto;
+		
+		
 	}
 
 	.banner {
