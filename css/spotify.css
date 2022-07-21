@@ -317,6 +317,9 @@ img {
 		margin:0 auto;
 		
 		
+		
+		
+		
 	}
 
 	.banner {
@@ -324,12 +327,15 @@ img {
 		background-color:violet;
 		margin:0 auto;
 		margin-top:70px;
+		
 	}
 
 	.banner img {
 		width:700px;
 		height:200px;
 		border-radius:5px;
+		
+		
 		
 	}
 	/* MAIN */
