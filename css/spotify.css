@@ -401,6 +401,9 @@ img {
 	}
 
 	/* MUSIC LIST R&B*/
+	a {
+		text-decoration: none;
+	}
 	.music-list {
 		display:grid;
 		grid-template-columns:auto auto auto;
