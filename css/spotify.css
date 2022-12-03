@@ -63,6 +63,11 @@ img {
 		height:30px;
 		margin-left:10px;
 	}
+
+	.input[type=search]{
+		border-radius:20px;
+		
+	}
 	.ide {
 		width:40px;
 		height:40px;
